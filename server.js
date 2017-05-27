@@ -1,7 +1,7 @@
 'use strict';
 const Sequelize = require('sequelize');
 const express = require('express');
-const db = new Sequelize('postgres://laq:password@laq-postgres:5432/admin');
+const db = new Sequelize('postgres://admin:password@postgres:5432/admin');
 
 
 const PORT = 8080;
@@ -20,7 +20,7 @@ setTimeout(()=>{
 
 
 app.get('/', (req, res) => {
-  res.send('HELLO  :) WORLD\n');
+  res.send('oooooooooO  :) WORLD\n');
 })
 
 app.listen(PORT);
